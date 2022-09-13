@@ -1,0 +1,21 @@
+opencv-python==4.5.5.62
+ipywidgets==7.6.5
+fire==0.4.0
+tensorboardX
+tensorflow
+protobuf
+numba
+numpy
+scikit-image
+scipy
+pillow
+psutil
+seaborn
+plotly
+tqdm
+nuscenes-devkit
+
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.7.1+cu110
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.8.2+cu110
