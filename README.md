@@ -7,7 +7,7 @@ PointPaintingの学習、推論環境及び、学習済みモデルを公開し�
 > リファレンス環境（ソフトウェア）は、段階的なリリースを実施しております。  
 > 本リポジトリでは、Step2として、第6回AIエッジコンテストの配布データを用いたリファレンス環境を構築しています。 
 > PointPaintingの手法の理解や配布データでの学習・推論の参考としてお役立てください。  
-> なお、Step1では、[https://github.com/pometa0507/6th-ai-reference)](https://github.com/pometa0507/6th-ai-reference)でオープンデータKITTIをを用いたリファレンス環境を公開しております。
+> なお、Step1では、[https://github.com/pometa0507/6th-ai-reference](https://github.com/pometa0507/6th-ai-reference)でオープンデータKITTIをを用いたリファレンス環境を公開しております。
 
 ## 動作確認
 
@@ -95,12 +95,12 @@ pip install ./dist/spconv*.whl
             :
 ```
 
-[第6回AIエッジコンテスト](https://signate.jp/competitions/732)の配布データの学習用データ（train_0.zip~train_4.zip）をダウンロードして展開してください。  
-`train/3d_labels`を`data`配下に格納します。  
-（本リポジトリでは配布データのうち、`train/3d_labels`ディレクトリのみを使用し、その他のファイルは使用しません。）
+[第6回AIエッジコンテスト](https://signate.jp/competitions/732)の配布データから学習用データ（train_0.zip~train_4.zip）をダウンロードして展開してください。  
+展開したファイルのうち、`train/3d_labels`ディレクトリを`data`配下に格納します。  
+（本リポジトリでは`train/3d_labels`ディレクトリのみを使用し、その他のファイルは使用しません。）
 
 本リポジトリでは、配布データの`3d_labels/v1.0-trainval/sample_annotation.json`を使用して評価(Evaluation)を実行するとエラーが発生します。  
-評価(Evaluation)を実行するために、[Google Drive](https://drive.google.com/file/d/1KA_iF4X3DD3khr4_bdG4nG-KdWAkWB_9/view?usp=sharing)より修正版の`sample_annotation.json`をダウンロードして、`3d_labels/v1.0-trainval/sample_annotation.json`に上書き保存してください。  
+評価(Evaluation)を実行するために、[Google Drive](https://drive.google.com/file/d/1KA_iF4X3DD3khr4_bdG4nG-KdWAkWB_9/view?usp=sharing)より修正版の`sample_annotation.json`をダウンロードして、既存の`3d_labels/v1.0-trainval/sample_annotation.json`に上書き保存してください。  
 
 
 ### 学習済みモデル
