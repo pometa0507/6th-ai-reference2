@@ -15,4 +15,4 @@ services:
     ports:
       - 8888:8888
       - 6006:6006
-    shm_size: '32gb'
+    shm_size: '8gb'
